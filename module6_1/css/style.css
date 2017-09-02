@@ -1,0 +1,144 @@
+* {
+	font-family: Tahoma, sans-serif;
+}
+
+
+/******************Задание 1******************/
+
+
+.task1 {
+	float: left;
+	border: 1px solid;
+	height: 680px;
+	width: 500px;
+	margin-left: 20px;
+}
+.p1 {
+	width: 500px;
+	background-color: green;
+}
+
+.p1:hover {
+	background-color: yellow;
+}
+
+.p1:active {
+	background-color: red;
+}
+
+.p1 {
+	width: 500px;
+	background-color: green;
+}
+
+.p1:hover {
+	background-color: yellow;
+}
+
+.p1:active {
+	background-color: red;
+}
+
+.p2 {
+	width: 500px;
+	background-color: purple;
+}
+
+.p2:hover {
+	background-color: brown;
+}
+
+.p2:active {
+	background-color: gold;
+}
+
+/******************Задание 2******************/
+.task2 {
+	float: left;
+	margin-left: 50px;
+	border: 1px solid;
+	height: 680px;
+	width: 500px;
+	text-align: center;
+	
+}
+
+.task2 input:focus {
+	background-color: green;
+}
+
+/******************Задание 3******************/
+
+.task3 {
+	float: left;
+	margin-left: 50px;
+	border: 1px solid;
+	height: 680px;
+	width: 500px;
+	
+}
+.task3 > p {
+	width: 500px;
+}
+.task3 > p:nth-child(2n+1) {
+	background-color: grey;
+}
+
+/******************Задание 4******************/
+
+
+.task4 {
+	float: left;
+	border: 1px solid;
+	height: 680px;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.task4 > p {
+	width: 500px;
+}
+.task4 > p:first-letter {
+	font-size: 2rem;
+	color: red;
+	font-family: Georgia;
+}
+
+.task4 > p:after {
+	display: inline;
+	content: '\2605';
+}
+
+p:before {
+	display: inline;
+	content: '\2602';
+}
+
+/******************Задание 7******************/
+
+.task7 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+	border: 1px solid;
+	height: 680px;
+	width: 500px;
+	text-align: center;
+}
+.triangle {
+	position: relative;
+	
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+
+.triangle:before {
+	position: absolute;
+	top: 14px;
+	left: -35px;
+	content: '';
+	border: 10px solid transparent;	
+	border-right: 25px solid black;
+}

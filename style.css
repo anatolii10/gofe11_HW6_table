@@ -1,0 +1,14 @@
+a {
+    display: block;
+    width: 500px;
+    height: 200px;
+    margin: 20px 20px 20px 200px;
+    background-color: skyblue;
+    color: azure;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    border-radius: 20px;
+}

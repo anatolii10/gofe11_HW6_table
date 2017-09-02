@@ -1,0 +1,51 @@
+* {
+	font-family: tahoma, sans-serif;
+}
+
+table {
+	width: 523px;
+	height: 205px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.task2 > table > tbody > tr:first-child{
+	border-bottom: 2px solid #E0E0E0;
+}
+
+.task3 > table > tbody > tr{
+	border-bottom: 2px solid #E0E0E0;
+}
+
+
+.task4 > table {
+	width: 593px;
+}
+
+.task4 > table > tbody > tr {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.task4 > table > tbody > tr > td {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button, .del {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #E7242A;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.del {
+	width: 52px;
+	font-size: 9px;
+	line-height: 29px;
+	background-color: #DC4E45;
+}
